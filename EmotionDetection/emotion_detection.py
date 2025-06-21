@@ -43,7 +43,6 @@ def emotion_detector(text_to_analyse):
     joy_score = emotions.get('joy', 0)
     sadness_score = emotions.get('sadness', 0)
 
-    # Determinar la emoción dominante
     # Determine the dominant emotion
     emotion_scores = {
         'anger': anger_score,
